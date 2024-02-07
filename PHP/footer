@@ -1,0 +1,66 @@
+<footer>
+      <div class="footer-container">
+        <div class="desc">
+          <h2>Travel Agency</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Architecto quo cum tempore, excepturi consequatur quia officiis ullam autem est voluptas nemo? 
+            Voluptatem, quidem vel reprehenderit quos provident mollitia! Laborum, esse?</p>
+        </div>
+        <div class="names">
+          <h2>Contributors</h2>
+          <ul>
+            <li>21BT04059-Viraj Parmar</li>
+            <li>21BT04056-Jay Parmar</li>
+            <li>21BT04037-Hemang Khatri</li>
+          </ul>
+        </div>
+        <div class="contactus">
+          <h2>Contact Us</h2>
+          <form>
+            <h4 class="h41">Enter Full Name:</h4>
+            <input type="text">
+            <h4 class="h42">Enter Email-id:</h4>
+            <input type="text">
+            <h4 class="h43">Enter Phone-no:</h4>
+            <input type="number"><br><br>
+            <button type="submit">Submit</button>
+          </form>
+        </div>
+      </div>
+      <div class="copywright-tag">&copyCopyright VJH GROUP. All rights reserved</div>
+    </footer>
+
+
+
+    .footer-container{
+        background-color: rgb(213, 247, 247);
+        width: 100%;
+        display:flex;
+        color:rgb(26, 24, 24);
+        justify-content: space-around;
+    }
+    .footer-container .desc{
+        width: 33.33%;
+        padding: 3%;
+    
+    }
+    .footer-container .names{
+        width: 33.33%;
+        padding: 3%;
+        
+    }
+    .footer-container .contactus{
+        width: 33.33%;
+        padding: 2%;
+    }
+    .copywright-tag{
+        background-color: lightgray;
+        padding: 0.5rem;
+        font-size: 1.5rem;
+        text-align: center;
+    
+    }
+    form{
+        margin: 0;
+    }
+    

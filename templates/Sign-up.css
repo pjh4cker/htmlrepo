@@ -1,0 +1,18 @@
+body{
+    background-color: grey;
+}
+#Signup-area{
+    background-color: gainsboro;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    margin-top: 5%;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+#Signup-button{
+    margin-left: 25%;
+}
+#Signup{
+    margin-left: 12.5%;
+}

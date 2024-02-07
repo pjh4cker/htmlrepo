@@ -1,0 +1,16 @@
+body{
+    background-color: grey;
+}
+#Forgatpassword{
+    background-color: gainsboro;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    margin-top: 10%;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+
+#Submit-button{
+    margin-left: 25%;
+}

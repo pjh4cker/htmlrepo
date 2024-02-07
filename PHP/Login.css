@@ -1,0 +1,21 @@
+body{
+    background-color: grey;
+}
+#Login-area{
+    background-color: gainsboro;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 5%;
+    margin-top: 10%;
+    margin-left: 38%;
+    margin-right: 38%;
+}
+#login-button{
+    margin-left: 25%;
+}
+#login{
+    margin-left: 12.5%;
+}
+#not-login{
+    margin-left: 5%;
+}

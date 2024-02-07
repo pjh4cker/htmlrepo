@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="form.css">
+    <title>Sports Academy Form</title>
+</head>
+<body>
+    <h1>Sports Academy Registration</h1>
+    <form action="form.php" method="post">
+        <label for="full_name">Full Name:</label>
+        <input type="text" name="full_name" id="full_name" required><br>
+
+        <label for="email">Email:</label>
+        <input type="email" name="email" id="email" required><br>
+
+        <label for="phone">Phone:</label>
+        <input type="tel" name="phone" id="phone" required><br>
+
+        <label for="sport">Sport:</label>
+        <select name="sport" id="sport" required>
+            <option value="cricket">Cricket</option>
+            <option value="football">Football</option>
+            <option value="basketball">Basketball</option>
+            <option value="tennis">Tennis</option>
+            <!-- Add more sports here -->
+        </select><br>
+
+        <label for="experience">Experience Level:</label>
+        <input type="radio" name="experience" value="beginner" required> Beginner
+        <input type="radio" name="experience" value="intermediate"> Intermediate
+        <input type="radio" name="experience" value="advanced"> Advanced<br>
+
+        <label for="additional_info">Additional Information:</label><br>
+        <textarea name="additional_info" id="additional_info" rows="4" cols="50"></textarea><br>
+
+        <input type="submit" name="submit" value="Submit">
+    </form>
+</body>
+</html>

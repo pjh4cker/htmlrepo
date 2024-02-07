@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Agency</title>
+    <link rel="stylesheet" href="style.css"> 
+  </head>
+  <body>
+<!--- HEADER SECTION START-->
+    <nav>
+      <div class="nav-items">
+        <a class="navone" id=travelbtn href="#">Travel</a>
+        <a class="navone" id=homebtn href="#">Home</a>
+        <a class="navone" id=packagesbtn href="#">Packages</a>
+        <a class="navone" id=aboutusbtn href="#">About us</a>
+        <div class="dropdown">
+          <button class="dropbtn">User</button>
+          <div class="dropdown-content">
+              <a id=loginbtn href="Login.html">Login</a>
+              <a id=sign-upbtn href="Sign-Up.html">Sign-up</a>
+              <a id=adminbtn href="#">Admin</a>
+          </div>
+      </div>
+    </nav>
+<!--- HEADER SECTION END-->
+
+<!--- MAIN SECTION START-->
+<div class="intro-container">
+
+</div>
+<div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="img1.jpg" style="width: 100%;">
+      <div class="text">Caption Text</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="img2.jpg" style="width:100%">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="img3.jpg" style="width:100%">
+      <div class="text">Caption Three</div>
+    </div>
+  
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+  </div>
+
+
+
+  
+<!--- MAIN SECTION END-->
+
+<!--- FOOTER SECTION START-->
+<footer>
+  <div class="footer-container">
+    <div class="desc">
+      <h2>Travel Agency</h2>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+        Architecto quo cum tempore, excepturi consequatur quia officiis ullam autem est voluptas nemo? 
+        Voluptatem, quidem vel reprehenderit quos provident mollitia! Laborum, esse?</p>
+    </div>
+    <div class="names">
+      <h2>Contributors</h2>
+      <ul>
+        <li>21BT04059-Viraj Parmar</li>
+        <li>21BT04056-Jay Parmar</li>
+        <li>21BT04037-Hemang Khatri</li>
+      </ul>
+    </div>
+    <div class="contactus">
+      <h2>Contact Us</h2>
+      <form>
+        <h4 class="h41">Enter Full Name:</h4>
+        <input type="text">
+        <h4 class="h42">Enter Email-id:</h4>
+        <input type="text">
+        <h4 class="h43">Enter Phone-no:</h4>
+        <input type="number"><br><br>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </div>
+  <div class="copywright-tag">&copyCopyright VJH GROUP. All rights reserved</div>
+</footer>
+    
+<!--- FOOTER SECTION END-->
+  <script src="script.js"></script>
+  </body>
+</html>
